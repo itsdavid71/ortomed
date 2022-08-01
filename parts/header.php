@@ -63,11 +63,11 @@
         <div class="container">
             <div class="header-links-flex">
                 <a href="index.php#catalog">Каталог</a>
-                <a href="return.php">Возврат</a>
-                <a href="delivery.php">Доставка</a>
-                <a href="pay.php">Оплата</a>
-                <a href="guarantee.php">Гарантии</a>
-                <a href="about.php">О нас</a>
+                <a href="pages/return.php">Возврат</a>
+                <a href="pages/delivery.php">Доставка</a>
+                <a href="pages/pay.php">Оплата</a>
+                <a href="pages/guarantee.php">Гарантии</a>
+                <a href="pages/about.php">О нас</a>
             </div>
         </div>
     </div>
