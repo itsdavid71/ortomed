@@ -4,12 +4,12 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="footer-links">
-                    <a href="#">Каталог</a>
-                    <a href="#">Доставка</a>
-                    <a href="#">Оплата</a>
-                    <a href="#">Гарантии</a>
-                    <a href="#">Возврат</a>
-                    <a href="#">О нас</a>
+                    <a href="index.php#catalog">Каталог</a>
+                    <a href="return.php">Возврат</a>
+                    <a href="delivery.php">Доставка</a>
+                    <a href="pay.php">Оплата</a>
+                    <a href="guarantee.php">Гарантии</a>
+                    <a href="about.php">О нас</a>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -44,7 +44,9 @@
     </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js" integrity="sha256-0H3Nuz3aug3afVbUlsu12Puxva3CP4EhJtPExqs54Vg=" crossorigin="anonymous"></script>
+<script src="js/cart.js" defer></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>
