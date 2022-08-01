@@ -4,9 +4,9 @@
             Каталог
             <div class="title-shadow">Catalog</div>
         </div>
-        <div class="catalog-items">
+        <div class="catalog-items row">
 
-            <div class="catalog-item">
+            <div class="catalog-item col-lg-3 col-md-6 col-sm-12">
                 <img src="img/catalog/1.png" alt="product">
                 <div class="catalog-item-sizes">
                     34, 35, 36, 37, 38, 39, 40, 41, 42
@@ -30,7 +30,7 @@
                     <div class="button-like"></div>
                 </div>
             </div>
-            <div class="catalog-item">
+            <div class="catalog-item col-lg-3 col-md-6 col-sm-12">
                 <img src="img/catalog/2.png" alt="product">
                 <div class="catalog-item-sizes">
                     34, 35, 36, 37, 38, 39, 40, 41, 42
@@ -54,7 +54,7 @@
                     <div class="button-like"></div>
                 </div>
             </div>
-            <div class="catalog-item">
+            <div class="catalog-item col-lg-3 col-md-6 col-sm-12">
                 <img src="img/catalog/3.png" alt="product">
                 <div class="catalog-item-sizes">
                     34, 35, 36, 37, 38, 39, 40, 41, 42
@@ -78,7 +78,7 @@
                     <div class="button-like"></div>
                 </div>
             </div>
-            <div class="catalog-item">
+            <div class="catalog-item col-lg-3 col-md-6 col-sm-12">
                 <img src="img/catalog/4.png" alt="product">
                 <div class="catalog-item-sizes">
                     34, 35, 36, 37, 38, 39, 40, 41, 42

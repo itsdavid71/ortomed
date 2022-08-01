@@ -16,6 +16,7 @@
   justify-content: space-between;
   p {
     color: #fff;
+    margin-bottom: 0;
   }
 }
 
@@ -132,11 +133,7 @@
 }
 
 .catalog-items {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   .catalog-item {
-    width: 24%;
     padding: 10px;
     box-sizing: border-box;
     transition: 0.2s;
@@ -219,5 +216,140 @@
     background: url("../img/like.png") center center / contain no-repeat;
     padding: 14px;
     cursor: pointer;
+  }
+}
+
+.questions {
+  margin: 50px 0;
+}
+
+.questions-image {
+  padding: 0;
+
+  object-fit: cover;
+}
+.questions-form {
+  background: #f3f4f9;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  .questions-form-title {
+    font-size: 3rem;
+    font-weight: 300;
+  }
+  p {
+    font-size: 24px;
+    font-weight: 300;
+  }
+  input,
+  textarea {
+    border-radius: 0;
+    padding: 10px;
+  }
+  button {
+    background: #25262b;
+    border-radius: 0;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+  }
+}
+
+footer {
+  padding: 30px 0;
+  .container {
+    padding-top: 50px;
+    border-top: 1px solid rgba(153, 153, 153, 0.5);
+  }
+}
+.footer-center {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  max-width: 300px;
+  margin: 0 auto;
+  img {
+    margin-bottom: 20px;
+  }
+}
+
+.footer-phone {
+  p {
+    position: relative;
+    padding-left: 25px;
+    font-weight: bold;
+    &::before {
+      content: "";
+      position: absolute;
+      background: url("../img/phone.png") center center / contain no-repeat;
+      padding: 10px;
+      left: 0;
+    }
+  }
+}
+.footer-email {
+  p {
+    position: relative;
+    padding-left: 25px;
+    font-weight: bold;
+    &::before {
+      content: "";
+      position: absolute;
+      background: url("../img/mail.png") center center / contain no-repeat;
+      padding: 10px;
+      left: 0;
+    }
+  }
+}
+
+.footer-links {
+  a {
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #25262b;
+    margin: 10px 0;
+  }
+}
+
+.footer-form {
+  background: #f3f4f9;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 40px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  .footer-form-title {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 24px;
+    font-weight: 300;
+  }
+  form {
+    width: 100%;
+  }
+  input,
+  textarea {
+    border-radius: 0;
+    padding: 10px;
+    width: 100%;
+  }
+  button {
+    background: #25262b;
+    border-radius: 0;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
   }
 }
