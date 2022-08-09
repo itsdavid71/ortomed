@@ -21,11 +21,11 @@
   <script src="js/cart.js" defer></script>
   <script src="js/main.js"></script>
 
-   <style>
-      .ajax_loader {
-         display: none;
-      }
-   </style>
+<style>
+	.ajax_loader {
+		display: none;
+	}
+</style>
     
 </head>
 <body>
@@ -135,10 +135,39 @@
     </div>
   </div>
 </div>
-?>
-include_once "parts/banner.php";
-include_once "parts/catalog.php";
-?>
+<img class="banner" src="img/banner.png" />
+<div class="returns">
+  <div class="container">
+    <div class="title">
+      Гарантии
+      <div class="title-shadow">guarantee</div>
+    </div>
+    <p>Гарантируем:</p>
+    <p class="li-p">
+        <span>01</span>
+        Возврат денег в случае фабричного брака, несоответствия размера или цвета, неправильной комплектации заказа
+    </p>
+    <p class="li-p">
+        <span>02</span>
+        Возврат стоимости заказа в случае утери посылки. Утерянной может считаться посылка, которая не прибыла в место вручения в течение 30 календарных дней с момента отправки.
+    </p>
+    <p class="li-p">
+        <span>03</span>
+        Добросовестное исполнение своих обязательств перед любым покупателем.
+    </p>
+    <p class="li-p">
+        <span>04</span>
+        Бесплатную консультацию и помощь в подборе размера, цвета и т.п.
+    </p>
+    <p class="li-p">
+        <span>05</span>
+        Безопасность всех финансовых операций, сохранность Ваших персональных данных.
+    </p>
+    <p>От нас не зависит:</p>
+    <p>Работа почтовых и курьерских служб. Но мы будем всячески стараться помочь, если возникнут какие-либо проблемы. Иногда возможны задержки в доставке по независящим от нас причинам.</p>
+    
+  </div>
+</div>
 <div class="faq">
   <div class="container">
     <div class="title">

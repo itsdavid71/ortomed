@@ -20,12 +20,11 @@
   <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js" integrity="sha256-0H3Nuz3aug3afVbUlsu12Puxva3CP4EhJtPExqs54Vg=" crossorigin="anonymous"></script>
   <script src="js/cart.js" defer></script>
   <script src="js/main.js"></script>
-
-   <style>
-      .ajax_loader {
-         display: none;
-      }
-   </style>
+<style>
+	.ajax_loader {
+		display: none;
+	}
+</style>
     
 </head>
 <body>
@@ -135,10 +134,96 @@
     </div>
   </div>
 </div>
-?>
-include_once "parts/banner.php";
-include_once "parts/catalog.php";
-?>
+<img class="banner" src="img/banner.png" />
+<div class="returns">
+  <div class="container">
+    <div class="title">
+      Выбор размера
+      <div class="title-shadow">SIZE</div>
+    </div>
+    <p>Инструкция по подбору размера</p>
+    <p class="li-p">
+        <span>01</span>
+        Поставьте ногу на чистый лист бумаги
+    </p>
+    <p class="li-p">
+        <span>02</span>
+        Отметьте крайние границы ступни, положение ручки 90 градусов (у 1-го или 2-го пальца и пятки).
+    </p>
+    <p class="li-p">
+        <span>03</span>
+        Отмерьте это расстояние в см.
+    </p>
+    <p class="li-p">
+        <span>04</span>
+        Проделайте то же самое с другой ногой.
+    </p>
+    <p class="li-p">
+        <span>05</span>
+        Сравните 2 результата, ориентируйтесь на больший.
+    </p>
+    <p class="li-p">
+        <span>06</span>
+        Найдите соответствующий размер в таблице размеров.
+    </p>
+    <p><b>Европейская размерная сетка: </b></p>
+    <table class="table">
+    <thead>
+        <tr>
+        <th scope="col">Европа EUR</th>
+        <th scope="col">Сантиметры СМ</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>36</td>
+            <td>22.5</td>
+        </tr>
+        <tr>
+            <td>37</td>
+            <td>23.5</td>
+        </tr>
+        <tr>
+            <td>38</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>39</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>40</td>
+            <td>25.5</td>
+        </tr>
+        <tr>
+            <td>41</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>42</td>
+            <td>26.5</td>
+        </tr>
+        <tr>
+            <td>43</td>
+            <td>27.5</td>
+        </tr>
+        <tr>
+            <td>44</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td>45</td>
+            <td>29</td>
+        </tr>
+        <tr>
+            <td>46</td>
+            <td>30</td>
+        </tr>
+    </tbody>
+    </table>
+  </div>
+</div>
+
 <div class="faq">
   <div class="container">
     <div class="title">
@@ -484,5 +569,7 @@ include_once "parts/catalog.php";
 </body>
 
 </html>
+
+
 
 
